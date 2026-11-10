@@ -36,6 +36,7 @@ This displayed available successful and failed login events.
 
 Observed the following:
 
+<<<<<<< HEAD
 Field              Observation 
 
 Event ID           4625 
@@ -43,6 +44,15 @@ Event ID           4625
  Logon Type        2 
 Failure            Information An error occurred during logon 
  Source Address    Associated with own computer (as observed) 
+=======
+| Field | Observation |
+|---|---|
+| Event ID | 4625 |
+| Activity | Failed login |
+| Logon Type | 2 |
+| Failure Information | An error occurred during logon |
+| Source Address | Associated with own computer (as observed) |
+>>>>>>> 3f0e4c6 (Day 7: Windows Security Log Analysis)
 
 **Analysis:**
 
@@ -54,6 +64,7 @@ This event alone does not confirm a brute-force attack.
 
 Observed the following:
 
+<<<<<<< HEAD
  Field                   Observation 
 
  Event ID                4624 
@@ -61,6 +72,15 @@ Observed the following:
  Logon Type              5 
  Account                 Own account 
  Authentication Package  Negotiate 
+=======
+| Field | Observation |
+|---|---|
+| Event ID | 4624 |
+| Activity | Successful login |
+| Logon Type | 5 |
+| Account | Own account |
+| Authentication Package | Negotiate |
+>>>>>>> 3f0e4c6 (Day 7: Windows Security Log Analysis)
 
 **Analysis:**
 

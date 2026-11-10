@@ -30,6 +30,7 @@ Record security-related activities such as login attempts, account changes and p
 
 ## 4. Important Windows Security Event IDs
 
+<<<<<<< HEAD
  Event ID -> Description 
 
   4624       Successful login 
@@ -50,6 +51,28 @@ Record security-related activities such as login attempts, account changes and p
  5            Service login 
  7            Workstation unlock 
  10           Remote Interactive login (Remote Desktop) 
+=======
+| Event ID | Description |
+|---|---|
+| 4624 | Successful login |
+| 4625 | Failed login |
+| 4634 | Account logged off |
+| 4648 | Login using explicit credentials |
+| 4672 | Special privileges assigned |
+| 4688 | New process created |
+| 4720 | User account created |
+| 4726 | User account deleted |
+
+## 5. Important Logon Types
+
+| Logon Type | Description |
+|---|---|
+| 2 | Interactive login |
+| 3 | Network login |
+| 5 | Service login |
+| 7 | Workstation unlock |
+| 10 | Remote Interactive login (Remote Desktop) |
+>>>>>>> 3f0e4c6 (Day 7: Windows Security Log Analysis)
 
 ## 6. Authentication Package – Negotiate
 
